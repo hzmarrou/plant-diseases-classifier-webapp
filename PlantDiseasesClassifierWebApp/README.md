@@ -3,29 +3,13 @@ First, clone this repository into your environment. To use the app, navigate to 
 <image>
 
 
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "AllowedHosts": "*",
-  "AzureVisionSettings": {
-    "PredictionKey": "",
-    "Endpoint": "",
-    "ProjectId": "",
-    "PublishedModelName": ""
-  }
-}
-
 To obtain this information, go to the project portal in the Custom Vision portal and click on the settings icon.
 
-*Endpoint*:  This should look something like "https://name-of-your-azureai-services-instance.cognitiveservices.azure.com/"
+**Endpoint**:  This should look something like "https://name-of-your-azureai-services-instance.cognitiveservices.azure.com/"
 
-*ProjectId*: You can find this in the Custom Vision portal under Settings, or extract it from the URL.
+**ProjectId**: You can find this in the Custom Vision portal under Settings, or extract it from the URL.
 
-*PublishedModelName:* This is the name you assigned when publishing the model. For example, it might be paddydoctor-quick-training.
+**PublishedModelName**: This is the name you assigned when publishing the model. For example, it might be paddydoctor-quick-training.
 
 To run your application in Visual Studio Code, follow these steps:
 
